@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import "tailwindcss";
+
+body {
+ /* font-family: "Outfit", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: <weight>;
+ font-style: normal; */
+ font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
