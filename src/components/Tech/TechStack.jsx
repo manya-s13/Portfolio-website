@@ -30,9 +30,13 @@ const TechStack = () => {
   return (
     <div id="TechStack" className="mt-40 mb-20">
        
-        <div className='flex items-center justify-center gap-4 font-semibold'>
+        {/* <div className='flex items-center justify-center gap-4 font-semibold'>
             <span className='text-5xl text-white'>Tech</span>
             <span className='text-pink-300 text-5xl'>Stack</span>
+        </div> */}
+         <div className='flex items-center justify-center gap-4 font-bold mb-5 animate-fade-in'>
+          <span className='text-5xl text-white bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent'>Tech</span>
+          <span className='text-pink-400 text-5xl bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent'>Stack</span>
         </div>
         <div className='text-gray-300 text-center mt-5 mb-10'>
         What I bring to the table

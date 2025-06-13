@@ -23,6 +23,10 @@ function Hero() {
         return () => clearInterval(interval)
       }, [])
 
+      function handle(){
+        window.open("https://drive.google.com/file/d/1Lk-vj6r_Px-6uCLV-xO0Vtv4zM5nMAbR/view?usp=sharing")
+      }
+
   return (
     <div className='bg-black min-h-screen overflow-hidden'>
 <div className='flex flex-col items-center px-4'>
@@ -57,7 +61,7 @@ function Hero() {
         </h1>
 
         <div className='flex justify-center'>
-        <button className='bg-pink-400 text-white px-8 py-2 text-lg rounded-xl text-center mt-10 cursor-pointer hover:bg-pink-400/70'>Resume</button>
+        <button onClick={handle} className='bg-pink-400 text-white px-8 py-2 text-lg rounded-xl text-center mt-10 cursor-pointer hover:bg-pink-400/70'>Resume</button>
         </div>
         <Projects />
         <TechStack />

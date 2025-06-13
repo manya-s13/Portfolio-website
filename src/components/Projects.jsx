@@ -47,9 +47,13 @@ function Projects() {
 
   return (
     <div id='Projects' className='mt-50 mb-10'>
-        <div className='flex items-center justify-center gap-4 font-semibold'>
+        {/* <div className='flex items-center justify-center gap-4 font-semibold'>
             <span className='text-5xl text-white'>My</span>
             <span className='text-pink-300 text-5xl'>Projects</span>
+        </div> */}
+         <div className='flex items-center justify-center gap-4 font-bold mb-5 animate-fade-in'>
+          <span className='text-5xl text-white bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent'>My</span>
+          <span className='text-pink-400 text-5xl bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent'>Projects</span>
         </div>
         <div className='text-gray-300 text-center mt-5'>
         A visual log of my development journey
@@ -57,7 +61,7 @@ function Projects() {
         <div className='text-center mt-5 font-semibold text-pink-300 text-xl'>
             Full-Stack Projects
         </div>
-        <div className="mt-10 px-36 grid gap-8 md:grid-cols-2 lg:grid-cols-3 ">
+        <div className="mt-10 px-8 md:px-36 grid gap-8 md:grid-cols-2 lg:grid-cols-3 ">
         {projectData.map((project, idx) => (
           <ProjectCard key={idx} {...project} />
         ))}
@@ -65,7 +69,7 @@ function Projects() {
       <div className='text-center mt-15 font-semibold text-pink-300 text-xl'>
             Frontend Projects
         </div>
-        <div className="mt-10 px-70 grid gap-8 md:grid-cols-1 lg:grid-cols-2 ">
+        <div className="mt-10 px-8 md:px-70 grid gap-8 md:grid-cols-1 lg:grid-cols-2 ">
         {frontendProjects.map((project, idx) => (
           <ProjectCard key={idx} {...project} />
         ))}
