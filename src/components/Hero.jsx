@@ -43,7 +43,7 @@ function Hero() {
           </p>
 
           <img
-            src='/profilePic.jpg'
+            src='/me.jpg'
             alt='Manya'
             className='w-52 h-52 object-cover rounded-full'
           />

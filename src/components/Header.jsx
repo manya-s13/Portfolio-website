@@ -37,7 +37,7 @@ function Header() {
       <div className='flex justify-between items-center px-14'>
         <div className='text-white text-xl font-semibold'>Manya Sharma</div>
         
-        <div className='absolute left-1/2 transform -translate-x-1/2 flex gap-6 text-white text-center text-lg'>
+        <div className='absolute left-1/2 transform -translate-x-1/2 flex  hidden md:flex md:gap-6 text-white text-center text-lg'>
           <span 
             className='hover:underline cursor-pointer transition-all duration-200 hover:text-pink-300'
             onClick={() => scrollToSection('Projects')}
@@ -49,6 +49,12 @@ function Header() {
             onClick={() => scrollToSection('TechStack')}
           >
             Skills
+          </span>
+          <span 
+            className='hover:underline cursor-pointer transition-all duration-200 hover:text-pink-300'
+            onClick={() => window.open("https://manyaa.substack.com")}
+          >
+            Blogs
           </span>
         </div>
         

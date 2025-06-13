@@ -1,8 +1,13 @@
 import React from 'react'
 import   ProjectCard from './ProjectCard'
 import {motion} from 'framer-motion'
+import { ExternalLink } from 'lucide-react';
 
 function Projects() {
+
+  const handle = () => {
+    window.open("https://github.com/manya-s13");
+  }
 
     const projectData = [
        
@@ -102,6 +107,18 @@ function Projects() {
        
         ))}
       </div>
+      <span className='flex items-center justify-center mt-16'>
+  <button 
+    onClick={handle} 
+    className='bg-pink-400 rounded-2xl text-white px-6 py-3 hover:bg-pink-400/70 cursor-pointer'
+  >
+    <span className="flex items-center gap-2">
+      View All Projects
+      <ExternalLink className="w-5 h-5" />
+    </span>
+  </button>
+</span>
+
     </div>
   )
 }

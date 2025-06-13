@@ -24,13 +24,11 @@ function Contact() {
       </div> */}
 
       <div className='relative z-10 container mx-auto px-4 py-16'>
-        {/* Header */}
         <div className='flex items-center justify-center gap-4 font-bold mb-16 animate-fade-in'>
           <span className='text-5xl text-white bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent'>Contact</span>
           <span className='text-pink-400 text-5xl bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent'>Me</span>
         </div>
 
-        {/* Form Container */}
         <div className='max-w-2xl mx-auto'>
           <div className='bg-white/10 backdrop-blur-lg rounded-3xl border border-white/20 shadow-2xl p-8 hover:shadow-purple-500/25 transition-all duration-500'>
             <div className='space-y-8'>
@@ -52,7 +50,6 @@ function Contact() {
                 </div>
               </div>
 
-              {/* Email Field */}
               <div className='relative group'>
                 <label htmlFor='email' className='block text-white/90 text-sm font-medium mb-3 group-focus-within:text-pink-400 transition-colors'>
                   Email Address
@@ -70,7 +67,6 @@ function Contact() {
                 </div>
               </div>
 
-              {/* Message Field */}
               <div className='relative group'>
                 <label htmlFor='msg' className='block text-white/90 text-sm font-medium mb-3 group-focus-within:text-pink-400 transition-colors'>
                   Your Message
@@ -88,10 +84,10 @@ function Contact() {
                 </div>
               </div>
 
-              {/* Submit Button */}
+   
               <button 
                 onClick={handleSubmit}
-                className='w-full bg-gradient-to-r from-pink-400 to-purple-600 hover:from-pink-500 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-pink-500/25 flex items-center justify-center gap-3 group'
+                className='cursor-pointer w-full bg-gradient-to-r from-pink-400 to-purple-600 hover:from-pink-500 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-pink-500/25 flex items-center justify-center gap-3 group'
               >
                 Send Message
                 <Send className='w-5 h-5 group-hover:translate-x-1 transition-transform' />
@@ -99,16 +95,7 @@ function Contact() {
             </div>
           </div>
 
-          {/* Additional Info */}
-          {/* <div className='text-center mt-12 text-white/60'>
-            <p>I typically respond within 24 hours</p>
-            <div className='flex justify-center gap-8 mt-6'>
-              <div className='flex items-center gap-2'>
-                <div className='w-2 h-2 bg-green-400 rounded-full animate-pulse'></div>
-                <span className='text-sm'>Available for new projects</span>
-              </div>
-            </div>
-          </div> */}
+         
         </div>
       </div>
     </div>
