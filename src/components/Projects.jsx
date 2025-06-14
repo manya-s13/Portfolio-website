@@ -28,7 +28,7 @@ function Projects() {
           image: "/Project1.png",
           link: "https://github.com/manya-s13/cloudDocs.git",
           deploy: "",
-          tags: ["NextJS", "Appwrite", "Tailwind", "ShadCN"],
+          tags: ["NextJS", "TypeScript", "Appwrite", "Tailwind", "ShadCN"],
         },
         {
           title: "ChatApp",
@@ -50,16 +50,16 @@ function Projects() {
             image: "/drift.png",
             link: "https://github.com/manya-s13/DriftUI.git",
             deploy: "https://drift-ui-nine.vercel.app",
-            tags: ["React", "Tailwind", "Framer"],
+            tags: ["React", "JavaScript" , "Tailwind", "Framer"],
           },
           {
-            title: "DriftUI",
+            title: "LanX",
             description: "Landing Page",
             dates: "May 2025",
-            image: "/drift.png",
-            link: "https://github.com/manya-s13/DriftUI.git",
-            deploy: "https://drift-ui-nine.vercel.app",
-            tags: ["React", "Tailwind", "Framer"],
+            image: "/lanx.png",
+            link: "https://github.com/manya-s13/LanX.git",
+            deploy: "",
+            tags: ["React", "TypeScript" , "Tailwind", "Framer"],
           }
       ]
 
